@@ -1,0 +1,143 @@
+
+.recordL-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* margin-bottom: 0; */
+  }
+  
+  .recordL-header-title {
+    margin-left: 100px;
+    
+  }
+
+  
+  .recordL-header{
+    display: flex;
+    background-color: #4c4de2;
+    /* padding: 10px; */
+    /* text-align: center; */
+    color: white;
+    /* border: 2px solid #ccc; */
+    border-top: 2px solid #ccc;
+    width: 100%;
+    
+    /* border-bottom: 2px solid #ccc; */
+  }
+  .recordL-menu-icon {
+    cursor: pointer;
+    /* width: 50px; */
+    font-size: 40px;
+    /* padding-top: 10px; */
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+    z-index: 1000;
+  }
+  
+  .recordL-id{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+
+  .recordL-content {
+    display: flex;
+    justify-content: center;
+    /* gap: 80px; */
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+.recordL-input-group {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    /* margin-left: 100px; */
+}
+
+.recordL-input-groupAll {
+    display: flex;
+    /* justify-content: space-between; */
+
+    margin-bottom: 30px;
+    width: 60%;
+    color: black;
+    /* margin-left: 100px; */
+}
+
+.recordL-input-group2 {
+    /* display: flex; */
+    position:absolute;
+    /* justify-content: space-between; */
+    margin-left: 70%;
+    margin-bottom: 30px;
+    /* width: 60%; */
+    color: black;
+    /* margin-left: 100px; */
+}
+
+.recordL-input-group2 label {
+    display: block; /* ทำให้แต่ละ label อยู่ในบรรทัดของตัวเอง */
+}
+.recordL-textinput {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .recordL-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+  }
+
+  
+.recordL-input-group input,
+.recordL-dropdown  {
+  width: 100%;
+  padding: 8px;
+  border: 4px solid #00bfff; /* เพิ่มขอบสีฟ้า */
+  border-radius: 4px;
+  background: #ffffff;
+  color: #000;
+  border-radius: 10px; 
+  font-size: 24px;
+
+}
+
+.recordL-input-group input:focus{
+  border: 4px solid #00bfff;
+  outline: none ;
+}
+
+  .recordL-dropdown:focus {
+    border: 4px solid #00bfff;
+    outline: none ;
+  }
+  
+  .recordL-form-section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background: #ffffff;
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+    /*border: 2px solid #00bfff; /* ขอบสีฟ้าตามตัวอย่าง */
+    margin-bottom: 0;
+    font-size: 24px;
+    margin-top: 0.5%;
+    /* display: flex; */
+    /* gap: 80px; */
+    justify-content: center;
+  }
